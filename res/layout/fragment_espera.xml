@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="alostacos.juegos.atletismo.alostacos.vista.EntrenamientoActivity$EsperaFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/lblCargando"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="0.07"
+        android:layout_marginTop="@dimen/abc_action_bar_default_height_material"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/recuperando_entrenamiento" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        android:indeterminateDrawable="@drawable/greenprogress"
+        android:max="100"
+        android:indeterminate="true"
+        android:progress="45" />
+
+</LinearLayout>

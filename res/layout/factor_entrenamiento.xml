@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lblFactor"
+        android:width="@dimen/anchoFactor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lblNivel"
+        android:width="@dimen/anchoNivelFactor"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="@dimen/botonPuntuacion"
+        android:layout_height="wrap_content"
+        android:text="@string/incrementar_puntos"
+        android:id="@+id/btnMas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/puntos_por_defecto"
+        android:id="@+id/lblPuntos" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="@dimen/botonPuntuacion"
+        android:layout_height="wrap_content"
+        android:text="@string/decrementar_puntos"
+        android:id="@+id/btnMenos" />
+
+</LinearLayout>

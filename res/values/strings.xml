@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">A los tacos</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="prompt_email">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Entrar al juego</string>
+    <string name="error_field_required">Completa este campo</string>
+    <string name="prompt_bad_auth">Autenticación incorrecta</string>
+    <string name="prompt_error">Error de comunicaciones</string>
+
+    <string name="action_web">Ir a Alostacos.com</string>
+    <string name="action_exit">Salir</string>
+
+    <!-- Strings related to EntrenamientoActivity -->
+    <string name="title_activity_entrenamiento">Entrenamiento</string>
+    <string name="entrenar">Entrenar</string>
+    <string name="incrementar_puntos">+</string>
+    <string name="decrementar_puntos">-</string>
+    <string name="puntos_por_defecto">0</string>
+    <string name="recuperando_entrenamiento">Recuperando entrenamiento ...</string>
+    <string name="label_puntos">Puntos:</string>
+    <string name="nivel_atleta">Atleta de nivel %1$d</string>
+    <string formatted="false" name="descripcion_factor">Nivel %1$d\n%2$s%%</string>
+</resources>
